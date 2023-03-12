@@ -1,0 +1,35 @@
+# Creating a GitHub Account
+## What I Learned Each Week
+### Nicole Ownby
+### Week 8
+
+## Week 1
+1. The Data Science Process - Any project is an iterative process and the data extraction, manipulation, and modeling isn't the full picture. A big portion of time is keeping in communication with stakeholders. In addition, it's common to go back and forth between two steps in the process before moving on to the next step. 
+2. Bias-Variance Trade Off - An ideal model will have the lowest variance and the lowest bias. Simpler models will tend to have higher bias and lower variance, while more complex models will have higher variance and lower bias. The goal is to find the optimal model that finds patterns in the data (avoids overfitting) and is gives consistent results across data sets (doesn't change a lot with different data).
+
+## Week 2
+1. Exploring Data Using Visualization - Before any modeling is done, it's important to explore data set. This is time well spent to identify missing values, understand data types, and see if there appear to be relationships between variables to inform the model development stage of a project. 
+2. Transformations - Transformations make data easier to model and can include things like log transformations, normalization, rescaling, and converting continuous variables to discrete. 
+
+## Week 3
+1. Linear Regression - Linear regression is a model that should likely be tried first for any modeling project to see if it works and thereafter try more advanced models / refine the linear regression. 
+2. Linear Regression Applications - Linear regression can be used to make predictions or to understand the relationships between variables. 
+
+## Week 4
+1. Logistic Regression - Logistic Regression predicts the probability that an instance belongs to a specific category. It uses a logistic function. The regression model has a logit (log odds) that is linear in X. The coefficients are estimated using the maximum likelihood estimation. 
+2. Performance Measures - Different measurements can be used to assess a model, and which ones are used can vary based on the project. Different measures include accuracy, precision, recall, F1 score, and the ROC curve. 
+
+## Week 5
+1. Generalized Linear Models - GLMs generalize the normal linear model by relaxing some of the model assumptions so that non-normal data can be analyzed. GLMs assume the responses are independent but they don't have to be normally distributed, errors also need to be independent but not normally distributed, and that there is a linear relationship between the transformed response and the explanatory variables. 
+2. Poisson Regression - Poisson Regression is very useful for modeling situations where the response is a count, such as number of deaths or insurance claims. It uses the Poisson distribution to do this.
+
+## Week 6
+1. Decision Trees - Decision Trees are easy to understand and explain to others, however a single decision tree is often not as robust as other methods and lack the same level of predictive accuracy. 2. Random Forests - Random Forests are a type of ensemble method that combines many decision trees. This helps to reduce variance for more consistent predictions. Random Forests are similar to Bagging Trees. 
+
+## Week 7
+1. Unsupervised Learning - Unsupervised learning is used when there is no response, only features in a data set. It is often used for exploring data to discover unknown subgroups/clusters. 
+2. K Means Clustering - A type of unsupervised learning method in which similar observations are grouped together to try to identify common characteristics. The algorithm helps determine the optimal number of clusters and how to determine/visualize the elements in each cluster. 
+
+## Week 8
+1. Documentation - Documentation is very important for communicating results. Some documentation can be used just for you and peers to explain why you used certain methods and what you learned. Other types of documentation is used for a more general audience such as stakeholders. 
+2. Git and GitHub - Git is a version control system to track changes to code and collaborate with others. GitHub is an online software that allows you to create a remote repository to share your work with others. 
